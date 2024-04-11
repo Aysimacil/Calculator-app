@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+    color: teal;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+input{
+    border: 2px solid black;
+display: grid;
+grid-column: span 4;
+padding: 12px;
+cursor: pointer;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-gap: 7px;
+    justify-content: center;
+   
+}
+
+
+button{
+    background-color: rgb(164, 191, 206);
+    padding: 20px;
+   
+}
+.sayı:hover {
+    cursor: pointer;
+
+}
+
